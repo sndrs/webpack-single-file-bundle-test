@@ -3,12 +3,12 @@ const BundleAnalyzerPlugin =
 
 module.exports = {
   entry: {
-    "test-all": "./test-all.js",
-    "test-single-import": "./test-single-import.js",
-    "bundled-all": "./bundled-all.js",
-    "bundled-single-import": "./bundled-single-import.js",
-    "preserve-modules-all": "./preserve-modules-all.js",
-    "preserve-modules-single-import": "./preserve-modules-single-import.js",
+    "simple-demo-all": "./src/simple-demo-all.js",
+    "simple-demo-single-import": "./src/simple-demo-single-import.js",
+    "bundled-all": "./src/bundled-all.js",
+    "bundled-single-import": "./src/bundled-single-import.js",
+    "preserve-modules-all": "./src/preserve-modules-all.js",
+    "preserve-modules-single-import": "./src/preserve-modules-single-import.js",
   },
   mode: "production",
   optimization: {
