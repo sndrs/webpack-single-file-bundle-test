@@ -1,0 +1,20 @@
+{
+  "name": "webpack-single-file-bundle-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf dist/** && webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@emotion/react": "^11.11.4",
+    "@guardian/source-foundations": "^14.2.0",
+    "react": "^18.2.0",
+    "webpack": "^5.91.0",
+    "webpack-bundle-analyzer": "^4.10.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
